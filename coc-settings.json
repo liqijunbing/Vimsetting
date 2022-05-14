@@ -1,0 +1,17 @@
+{
+  "coc.preferences.extensionUpdateCheck": "weekly",
+  "coc.preferences.formatOnSaveFiletypes": ["json"],
+  "languageserver": {
+    "fortran": {
+      "command": "fortls",
+      "filetypes": ["fortran"],
+      "rootPatterns": [".fortls", ".git/"]
+    },
+    "bash": {
+      "command": "bash-language-server",
+      "args": ["start"],
+      "filetypes": ["sh"],
+      "ignoredRootPaths": []
+    }
+  }
+}
